@@ -12,8 +12,10 @@
 
 <!--    Если scope не указен, то будет применен Signletone -->
     <bean id="myPet"
-          class="com.example.spring_introduction.BeanScope.Dog">
+          class="com.example.spring_introduction.BeanScope.Dog"
+          scope="prototype"
+    />
 
-    </bean>
+
 
 </beans>
