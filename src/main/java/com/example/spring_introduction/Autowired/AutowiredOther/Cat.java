@@ -1,4 +1,4 @@
-package com.example.spring_introduction.Autowired;
+package com.example.spring_introduction.Autowired.AutowiredOther;
 
 import com.example.spring_introduction.Bean.Pet;
 import org.springframework.stereotype.Component;

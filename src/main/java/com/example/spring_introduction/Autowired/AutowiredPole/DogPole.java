@@ -1,13 +1,13 @@
-package com.example.spring_introduction.Autowired;
+package com.example.spring_introduction.Autowired.AutowiredPole;
 
 import com.example.spring_introduction.Bean.Pet;
 import org.springframework.stereotype.Component;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
-@Component("dogBean")
-public class Dog implements Pet {
-    public Dog() {
+@Component("dogBeanPole")
+public class DogPole implements Pet {
+    public DogPole() {
         out.println("Dog bean is created");
     }
     @Override

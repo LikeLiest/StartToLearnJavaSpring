@@ -1,4 +1,4 @@
-package com.example.spring_introduction.Autowired;
+package com.example.spring_introduction.Autowired.AutowiredOther;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext(
-                        "applicationContextForAutowired.xml");
+                        "ApplicationContextsForAutowired/applicationContextForAutowired.xml");
 
         try {
             Person person = context.getBean("personBean",Person.class);
@@ -14,8 +14,6 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
-//        Cat myCat = context.getBean("catBean", Cat.class);
-//        myCat.say();
 
 
 

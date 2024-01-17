@@ -10,8 +10,11 @@
    http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-    <!--    Если scope не указен, то будет применен Signletone -->
-    <context:component-scan base-package="com.example.spring_introduction.Autowired"/>
+    <!--    Если scope не указан, то будет применен Signletone -->
+    <!--    Стоит внимательно смотреть за пакетами. Зависимости могу также установиться для всех вложенных пакетов -->
+
+    <context:component-scan base-package="com.example.spring_introduction.Autowired.AutowiredOther"/>
+
     <bean id="test"
           scope="prototype"
     />
